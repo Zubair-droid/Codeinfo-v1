@@ -1,0 +1,270 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#title {
+
+  color: #fff;
+}
+.con{
+  color:white;
+}
+
+.bg-image{
+  position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    opacity: 1.5;
+    width:100%;
+    transition-delay: 2s;
+}
+
+h1 {
+  
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 50%;
+  
+  
+}
+
+h2 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* navigationbar */
+
+
+.navbar {
+  padding: 4.5rem 0 4.5rem;
+  color:white;
+ 
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: medium;
+  font-weight: 300;
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #fff;
+}
+
+
+/* Download buttons*/
+.download-button {
+  margin: 5% 3%;
+}
+
+/*title image*/
+.title-image {
+  width: 50px;
+  transform: rotate(25deg);
+  position: absolute;
+  
+  padding-left: 900px;
+}
+
+.phone{
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 15%;
+}
+  #title {
+   
+    color: #fff;
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+
+
+
+.navbar-toggler{
+  color:white;
+  background-color: #fff;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+  width:100%;
+  
+}
+
+
+.button-class
+{
+  color:white;
+  padding-left:0px;
+}
+
+
+.list {
+  right: 10%;
+}
+
+/* feature*/
+#features{
+
+  padding:5%;
+  color:inherit;
+  background-color: white;
+
+  width: 100%;
+  margin-bottom: 15%;
+}
+.feature-box{
+  align-items: center;
+  text-align:center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 3% 3% 3% 0;
+  color:black;
+}
+
+p {
+  font-family: "Ubuntu";
+  color: #8f8f8f;
+}
+
+h3 {
+  font-family: 'Montserrat Alternates';
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #27252a;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*testiminials*/
+#content {
+  text-align: center;
+  background-color: #222831;
+  color: #ffff;
+padding:3%;
+}
+#websites {
+  background-color: #393e46;
+  text-align: center;
+  width: 100%;
+
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+
+/* pricing*/
+#pricing {
+  margin: auto;
+  padding: 100px;
+  text-align: center;
+}
+
+#pricing .change-color{
+  color:white;
+}
+
+.padding-column {
+  padding: 3% 2%;
+}
+
+#top10 {
+  text-align: left;
+  padding: 2%;
+  background-color: #222831;
+  color: #fff;
+}
+#top10 p{
+    color: #fff;
+}
+#top10-seg h3:hover{
+  color: #d45d79;
+}
+hr
+{
+  border-top: 1px dashed red;
+margin-right: 20%;
+  left:0;
+}
+.colored-section {
+  padding: 80px 0;
+}
+
+
+
+.big-heading {
+  padding: 30px;
+}
+
+#footer {
+
+  text-align: center;
+}
+
+
+
+.footer-class p{
+  color: white;
+
+}
+
+.icon-f {
+
+  color: white;
+}
+.l
+{
+  color:white;
+  margin-left: 0px;
+  padding: 20%;
+}
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 0;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    
+  }
+
+
+
+
+}
